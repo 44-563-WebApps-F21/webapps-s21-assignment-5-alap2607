@@ -1,53 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Animals</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
 
 </head>
-<body>
 
-<h1>Animals by - Navya Sri Alaparthi</h1>
-<div class="row">
-<div class="col-sm-2">A</div>
-<div class="col-sm-2">L</div>
-<div class="col-sm-2">A</div>
-<div class="col-sm-2">P</div>
-<div class="col-sm-2">A</div>
-<div class="col-sm-2">R</div>
-</div>
-<div class="row">
-<div class="col-md">Ant</div>
-<div class="col-md">Lamb</div>
-<div class="col-md">Alligator</div>
-<div class="col-md">Parrot</div>
-<div class="col-md">Antelope</div>
-<div class="col-md">Rabbit</div>
-</div>
-<p>After observing the outcome of the above code. Whenever I start decreading the size of the page the animals row is breaking first because 
-    we have used col-md for the animals row col-md (column medium). If we use col-md the colums will become horizantal when the width is 
-    >=768px if we use col-sm (coloum small) the columns will become horizantal when the width is >= 576px we have used col-sm for the letters 
-    row. So when we start decreasing the size of the page size reaches 768px the animals row will convert into vertical then after continuing 
-    the decreasing process again when the size reaches 567px the letters row will convert into vertical. So this is the reason why the animals 
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a class="navbar-brand" href="Animals.html">Cute Animals</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+
+          <a class="nav-link" href="plane.html">Plane</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="train.html">Train</a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <br>
+  <h1>Animals by - Navya Sri Alaparthi</h1>
+  <div class="row">
+    <div class="col-sm-2">A</div>
+    <div class="col-sm-2">L</div>
+    <div class="col-sm-2">A</div>
+    <div class="col-sm-2">P</div>
+    <div class="col-sm-2">A</div>
+    <div class="col-sm-2">R</div>
+  </div>
+  <div class="row">
+    <div class="col-md">Ant</div>
+    <div class="col-md">Lamb</div>
+    <div class="col-md">Alligator</div>
+    <div class="col-md">Parrot</div>
+    <div class="col-md">Antelope</div>
+    <div class="col-md">Rabbit</div>
+  </div>
+  <p>After observing the outcome of the above code. Whenever I start decreading the size of the page the animals row is
+    breaking first because
+    we have used col-md for the animals row col-md (column medium). If we use col-md the colums will become horizantal
+    when the width is
+    >=768px if we use col-sm (coloum small) the columns will become horizantal when the width is >= 576px we have used
+    col-sm for the letters
+    row. So when we start decreasing the size of the page size reaches 768px the animals row will convert into vertical
+    then after continuing
+    the decreasing process again when the size reaches 567px the letters row will convert into vertical. So this is the
+    reason why the animals
     row will first converst into vertical.
-</p>
-<div class="container">
-  <img src="elep.jpg"  width="400px" height="400px" class="img-fluid">
-  <img src="pup.jpg"  width="400px" height="400px"  class="img-fluid">
-  <img src="panda.jpg"  width="400px" height="400px"  class = "img-fluid">
-</div>
-<div class="container">
-  <img src="elep.jpg" class="img-thumbnail" width="200px">
-  <img src="pup.jpg" class="img-thumbnail" width="200px">
-  <img src="panda.jpg" class="img-thumbnail" width="200px">
-</div>
+  </p>
+  <div class="container">
+    <img src="elep.jpg" width="400px" height="400px" class="img-fluid">
+    <img src="pup.jpg" width="400px" height="400px" class="img-fluid">
+    <img src="panda.jpg" width="400px" height="400px" class="img-fluid">
+  </div>
+  <div class="container">
+    <img src="elep.jpg" class="img-thumbnail" width="200px">
+    <img src="pup.jpg" class="img-thumbnail" width="200px">
+    <img src="panda.jpg" class="img-thumbnail" width="200px">
+  </div>
+
+  <table class="table table-sm table-striped table-bordered table-hover">
+    <caption>Above Mentioned table contains information about 6letters related Animals, City and Car</caption>
+    <thead>
+      <tr class="bg-primarytext-white" style="background-color: palevioletred;">
+        <th scope="col">Letter</th>
+        <th scope="col">Animal</th>
+        <th scope="col">City</th>
+        <th scope="col">Car</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">A</th>
+        <td>Ant</td>
+        <td>Atlanta</td>
+        <td>Aura</td>
+      </tr>
+      <tr class="bg-success-white" style="background-color: pink;">
+        <th scope="row">L</th>
+        <td>Lamb</td>
+        <td>Lowa</td>
+        <td>Lambhorghini</td>
+      </tr>
+      <tr>
+        <th scope="row">A</th>
+        <td>Alligator</td>
+        <td>Ahmedabad</td>
+        <td>Acura</td>
+      </tr>
+      <tr class="bg-danger-white" style="background-color:pink;">
+        <th scope="row">P</th>
+        <td>Parrot</td>
+        <td>Patna</td>
+        <td>Porsche</td>
+      </tr>
+      <tr>
+        <th scope="row">A</th>
+        <td>Antelope</td>
+        <td>Andhra Pradesh</td>
+        <td>Audi</td>
+      </tr>
+      <tr class="bg-warning-white" style="background-color: pink;">
+        <th scope="row">R</th>
+        <td>Rabbit</td>
+        <td>Raipur</td>
+        <td>Range Rover</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="btn-toolbar" aria-label="Letter Button Gropus">
+    <div class="btn-group mr-2" aria-label="This is the First Button Group">
+      <button class="btn btn-success">A</button>
+      <button class="btn btn-success">L</button>
+      <button class="btn btn-success">A</button>
+    </div>
+    <div class="btn-group mr-2" aria-label="This is the Second Button Group">
+      <button class="btn btn-alert">P</button>
+      <button class="btn btn-alert">A</button>
+    </div>
+    <div class="btn-group mr-2" aria-label="This is the Third Button Group">
+      <button class="btn btn-danger">R</button>
+    </div>
+  </div>
+  <br>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" id="btnGroupDrop1" type="button" data-bs-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="plane.html">PLANE</a>
+      <a class="dropdown-item" href="train.html">TRAIN</a>
+    </div>
+  </div>
+  <br>
+  <form>
+    <div class="form-group">
+      <label for="EmailLogin">Email address</label>
+      <input type="email" class="form-control" id="Email" aria-describedby="emailaddress" placeholder="Enter email">
+      <small id="emailaddress" class="form-text text-muted">We wont share your email with anyone.</small>
+    </div>
+    <div class="form-group">
+      <label for="Password">Animal</label>
+      <input type="text" class="form-control" id="Password" placeholder="Enter your animal">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="checkin">
+      <label class="form-check-label" for="Checkin">Sign up for newsletter?</label>
+    </div>
+    <div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
 </body>
+
 </html>
